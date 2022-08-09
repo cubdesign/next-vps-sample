@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+        "name": "next.app",
+        "script": "node_modules/next/dist/bin/next",
+        "args": "start --port 8000",
+        "cwd": "./",
+        "instances": "max",
+        "exec_mode": "cluster"
+    }
+  ]
+}
