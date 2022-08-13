@@ -33,4 +33,3 @@ jobs:
             echo 333
             cd ~/src/next-vps-sample
             echo 444
-            git pull origin main
