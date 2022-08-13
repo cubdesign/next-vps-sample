@@ -25,12 +25,19 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
+            echo 111
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-            [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+            echo 222
             export PATH="$(yarn global bin):$PATH"
+            echo 333
             cd ~/src/next-vps-sample
+            echo 444
             git pull origin main
+            echo 555
             yarn install
+            echo 666
             yarn build
+            echo 777
             pm2 restart next.app
+            echo 888
