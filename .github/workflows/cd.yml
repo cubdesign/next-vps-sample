@@ -34,9 +34,3 @@ jobs:
             cd ~/src/next-vps-sample
             echo 444
             git pull origin main
-            echo 555
-            yarn install
-            echo 666
-            yarn build
-            echo 777
-            echo 888
