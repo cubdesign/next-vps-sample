@@ -39,5 +39,4 @@ jobs:
             echo 666
             yarn build
             echo 777
-            pm2 restart next.app
             echo 888
