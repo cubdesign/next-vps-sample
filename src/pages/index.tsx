@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <main>
         <h1>Welcome to u.cubdesign.com!</h1>
-        <p>test 7</p>
+        <p>test 8</p>
       </main>
 
       <footer></footer>
